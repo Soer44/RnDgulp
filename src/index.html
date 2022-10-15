@@ -32,7 +32,7 @@
 			<button class="btn" disabled><span class="btn__text">Провериться</span></button>
 		
 		<div class="checkbox">
-			<input class="check" type="checkbox"><p>Я согласен гореть в аду в случае 
+			<input class="check" type="checkbox" onChange="document.querySelector('.btn').disabled=(this.checked ? false : true);"><p>Я согласен гореть в аду в случае 
 				высокого уровня ереси в крови</p>
 		</div>
 		</div>
