@@ -6,3 +6,10 @@
                   font-style: normal;
                 }
 
+@font-face {
+					font-family: "PlayfairDisplay";
+					font-display: swap;
+					src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+					font-weigth: 900;
+					font-style: normal;
+				}

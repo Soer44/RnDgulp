@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-weigth: 900;
+  font-style: normal;
+}
+
 :root {
   --container: 1140px;
 }
@@ -78,7 +86,7 @@ body {
 }
 
 .no-webp .wrapper-main-block {
-  background-image: url(img/fon.png); }
+  background-image: url("../img/fon.png"); }
 
 .wrapper-main-block {
   background-size: cover;
@@ -230,7 +238,7 @@ body {
 }
 
 .no-webp .wrapper-blockinf {
-  background-image: url(img/fon1.png); }
+  background-image: url("../img/fon1.png"); }
 
 .wrapper-blockinf {
   background-size: 100% auto;
@@ -412,7 +420,7 @@ body {
 }
 
 .no-webp .wrapper-feedback-block {
-  background-image: url(img/fon2.png); }
+  background-image: url("../img/fon2.png"); }
 
 .wrapper-feedback-block {
   background-size: 100% auto;
@@ -428,7 +436,7 @@ body {
 }
 
 .no-webp .feedback-block-img {
-  background-image: url(img/fon3.png); }
+  background-image: url("../img/fon3.png"); }
 
 .feedback-block-img {
   background-repeat: no-repeat;
@@ -498,19 +506,19 @@ input {
 }
 
 #fio {
-  background-image: url(img/form_1.svg);
+  background-image: url("../img/form_1.svg");
   background-position: bottom 15px right 23px;
   background-repeat: no-repeat;
 }
 
 #email {
-  background-image: url(img/form_2.svg);
+  background-image: url("../img/form_2.svg");
   background-position: bottom 15px right 20px;
   background-repeat: no-repeat;
 }
 
 #tel {
-  background-image: url(img/form_3.svg);
+  background-image: url("../img/form_3.svg");
   background-position: bottom 15px right 20px;
   background-repeat: no-repeat;
 }
@@ -686,10 +694,10 @@ input {
   }
 }
 
-.webp .wrapper-main-block { background-image: url(img/fon.webp); }
+.webp .wrapper-main-block { background-image: url(../img/fon.webp); }
 
-.webp .wrapper-blockinf { background-image: url(img/fon1.webp); }
+.webp .wrapper-blockinf { background-image: url(../img/fon1.webp); }
 
-.webp .wrapper-feedback-block { background-image: url(img/fon2.webp); }
+.webp .wrapper-feedback-block { background-image: url(../img/fon2.webp); }
 
-.webp .feedback-block-img { background-image: url(img/fon3.webp); }
+.webp .feedback-block-img { background-image: url(../img/fon3.webp); }
